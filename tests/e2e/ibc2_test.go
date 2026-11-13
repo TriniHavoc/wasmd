@@ -6,11 +6,11 @@ import (
 	"time"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/v3/types"
-	ibctransfertypes "github.com/cosmos/ibc-go/v11/modules/apps/transfer/types"
-	channeltypes "github.com/cosmos/ibc-go/v11/modules/core/04-channel/types"
-	channeltypesv2 "github.com/cosmos/ibc-go/v11/modules/core/04-channel/v2/types"
-	ibctesting "github.com/cosmos/ibc-go/v11/testing"
-	mockv2 "github.com/cosmos/ibc-go/v11/testing/mock/v2"
+	ibctransfertypes "github.com/lfdt-ibc/ibc-go/v11/modules/apps/transfer/types"
+	channeltypes "github.com/lfdt-ibc/ibc-go/v11/modules/core/04-channel/types"
+	channeltypesv2 "github.com/lfdt-ibc/ibc-go/v11/modules/core/04-channel/v2/types"
+	ibctesting "github.com/lfdt-ibc/ibc-go/v11/testing"
+	mockv2 "github.com/lfdt-ibc/ibc-go/v11/testing/mock/v2"
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/require"
 
